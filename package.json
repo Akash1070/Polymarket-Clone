@@ -1,36 +1,115 @@
 {
   "name": "simplepredictionmarket",
+  // The name of the project.
+  // Used internally by tooling and package managers.
+  // This is NOT shown to end users.
+
   "version": "0.1.0",
+  // The current version of the project.
+  // Typically follows semantic versioning: major.minor.patch.
+
   "private": true,
+  // Prevents this project from being accidentally published as a public package.
+  // Common for internal apps, startups, and client projects.
+
   "scripts": {
     "dev": "next dev",
+    // Starts the app in development mode.
+    // Used while building and testing locally.
+
     "build": "next build",
+    // Creates an optimized production build of the app.
+    // This is run before deployment.
+
     "start": "next start",
+    // Starts the production server using the built files.
+    // Used after "build" when the app goes live.
+
     "lint": "next lint"
+    // Checks code quality and formatting issues.
+    // Helps keep the codebase clean and consistent.
   },
+
   "dependencies": {
     "@radix-ui/react-progress": "^1.1.0",
+    // UI component for progress bars.
+    // Used for loading states, timers, or completion indicators.
+
     "@radix-ui/react-slot": "^1.1.0",
+    // Utility for composing components cleanly.
+    // Helps build flexible, reusable UI elements.
+
     "@radix-ui/react-tabs": "^1.1.1",
+    // Tabs UI component (switching between views or sections).
+
     "@radix-ui/react-toast": "^1.2.2",
+    // Toast notifications (small popup messages like success or error alerts).
+
     "class-variance-authority": "^0.7.0",
+    // Helps manage CSS class combinations based on component states.
+    // Makes UI styling more predictable and scalable.
+
     "clsx": "^2.1.1",
+    // Utility for conditionally applying CSS classes.
+    // Keeps styling logic readable.
+
     "lucide-react": "^0.453.0",
+    // Icon library.
+    // Used for UI icons like arrows, alerts, buttons, etc.
+
     "next": "15.0.5",
+    // The core framework powering the app.
+    // Handles routing, rendering, performance, and builds.
+
     "react": "19.0.0-rc-69d4b800-20241021",
+    // Core UI library.
+    // Responsible for building interactive user interfaces.
+
     "react-dom": "19.0.0-rc-69d4b800-20241021",
+    // Connects React to the browser.
+    // Handles rendering React components to the screen.
+
     "tailwind-merge": "^2.5.4",
+    // Automatically resolves conflicting Tailwind CSS classes.
+    // Prevents styling bugs.
+
     "tailwindcss-animate": "^1.0.7",
+    // Adds animation utilities for Tailwind CSS.
+    // Used for smooth UI transitions.
+
     "thirdweb": "^5.64.2"
+    // Web3 SDK.
+    // Used to interact with blockchain wallets, smart contracts, and on-chain actions.
   },
+
   "devDependencies": {
     "@types/node": "^20",
+    // Type definitions for Node.js.
+    // Helps TypeScript understand server-side APIs.
+
     "@types/react": "^18",
+    // Type definitions for React.
+    // Improves autocomplete and error detection.
+
     "@types/react-dom": "^18",
+    // Type definitions for React DOM rendering.
+
     "eslint": "^8",
+    // Code quality and linting tool.
+    // Enforces best practices and avoids bugs.
+
     "eslint-config-next": "15.0.1",
+    // Official linting rules for Next.js projects.
+
     "postcss": "^8",
+    // Tool used by Tailwind to process CSS.
+
     "tailwindcss": "^3.4.1",
+    // Utility-first CSS framework.
+    // Controls layout, spacing, colors, and responsiveness.
+
     "typescript": "^5"
+    // Adds static typing to JavaScript.
+    // Reduces runtime bugs and improves maintainability.
   }
 }
