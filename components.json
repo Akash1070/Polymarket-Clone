@@ -1,20 +1,56 @@
 {
-  "$schema": "https://ui.shadcn.com/schema.json",
+  "$schema": "https://ui.shadcn.com/schema.json", 
+  // Tells tools and editors what “rules” this file follows.
+  // This helps with validation, autocomplete, and error checking.
+
   "style": "default",
+  // Defines the visual style preset for UI components.
+  // "default" means the standard shadcn/ui look without heavy customization.
+
   "rsc": true,
+  // Enables React Server Components.
+  // This allows parts of the UI to run on the server for better performance.
+
   "tsx": true,
+  // Indicates the project uses TSX (TypeScript + JSX).
+  // This means components are written in TypeScript with React syntax.
+
   "tailwind": {
     "config": "tailwind.config.ts",
+    // Path to the Tailwind CSS configuration file.
+    // This file controls colors, spacing, breakpoints, and design tokens.
+
     "css": "src/app/globals.css",
+    // Path to the global CSS file where Tailwind styles are imported.
+
     "baseColor": "neutral",
+    // Sets the base color palette for UI components.
+    // "neutral" results in gray-based, clean, enterprise-friendly styling.
+
     "cssVariables": true,
+    // Enables CSS variables for colors and themes.
+    // This makes dark mode and theme switching easier.
+
     "prefix": ""
+    // Optional prefix for Tailwind classes.
+    // Empty means classes stay standard (e.g., "bg-gray-200").
   },
+
   "aliases": {
     "components": "@/components",
+    // Short alias for importing reusable UI components.
+    // Example: import Button from "@/components/Button"
+
     "utils": "@/lib/utils",
+    // Alias for helper functions (formatting, calculations, etc.).
+
     "ui": "@/components/ui",
+    // Alias specifically for shadcn-generated UI components.
+
     "lib": "@/lib",
+    // General-purpose shared logic, services, or helpers.
+
     "hooks": "@/hooks"
+    // Alias for custom React hooks (reusable logic blocks).
   }
 }
