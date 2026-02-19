@@ -1,27 +1,80 @@
 {
   "compilerOptions": {
     "target": "ES2017",
+    // Defines the JavaScript version the code is compiled to.
+    // ES2017 works in modern browsers while staying widely compatible.
+
     "lib": ["dom", "dom.iterable", "esnext"],
+    // Tells TypeScript which built-in features are available.
+    // Includes browser APIs (DOM) and modern JavaScript features.
+
     "allowJs": true,
+    // Allows regular JavaScript (.js) files to be part of the project.
+    // Useful when migrating gradually to TypeScript.
+
     "skipLibCheck": true,
+    // Skips type-checking of third-party libraries.
+    // Speeds up builds without affecting app safety.
+
     "strict": true,
+    // Enables strict type-checking rules.
+    // Prevents many runtime bugs before the app runs.
+
     "noEmit": true,
+    // Prevents TypeScript from outputting compiled files.
+    // The build system (Next.js) handles compilation instead.
+
     "esModuleInterop": true,
+    // Improves compatibility between different module systems.
+    // Makes imports from older libraries work smoothly.
+
     "module": "esnext",
+    // Uses the latest JavaScript module format.
+    // Allows bundlers to optimize output efficiently.
+
     "moduleResolution": "bundler",
+    // Lets the bundler (Next.js) decide how modules are resolved.
+    // Matches modern frontend build pipelines.
+
     "resolveJsonModule": true,
+    // Allows importing JSON files directly into TypeScript.
+    // Example: importing config or data files.
+
     "isolatedModules": true,
+    // Ensures each file can be safely compiled on its own.
+    // Required for modern build tools and fast refresh.
+
     "jsx": "preserve",
+    // Keeps JSX syntax intact for Next.js to process.
+    // TypeScript checks it, but does not transform it.
+
     "incremental": true,
+    // Enables faster rebuilds by reusing previous compilation results.
+    // Improves developer productivity.
+
     "plugins": [
       {
         "name": "next"
       }
     ],
+    // Adds Next.js-specific TypeScript behavior and optimizations.
+
     "paths": {
       "@/*": ["./src/*"]
     }
+    // Defines path aliases.
+    // Allows clean imports like "@/components/Button"
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts"
+  ],
+  // Specifies which files TypeScript should analyze.
+  // Includes all TypeScript files and Next.js generated types.
+
   "exclude": ["node_modules"]
+  // Excludes third-party dependencies from type checking.
 }
