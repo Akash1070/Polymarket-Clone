@@ -141,11 +141,11 @@ This mimics the **Polymarket‑style deployment pattern**, where contracts are d
 
 ***
 
-## How This Relates to Your Polymarket‑Style Clone (Solana + Triad‑style)
+## How This Relates to Your Polymarket‑Style Clone (Solana + Our Polymarket Clone‑style)
 
 While this repo is **Ethereum‑based** and uses Solidity, it conceptually mirrors the **core logic** of your Polymarket‑style clone on Solana:
 
-| Feature | Your Solana‑based clone (Triad‑style) | Ethereum‑based clone repo |
+| Feature | Your Solana‑based clone (Our Polymarket Clone‑style) | Ethereum‑based clone repo |
 | --- | --- | --- |
 | **Chain** | Solana (low‑gas, high‑speed) | Ethereum (high‑cost, battle‑tested) |
 | **Token** | USDC, 1:1 payout, 0.36% fee on profits | Synthetic USDC‑like share tokens (YES/NO), fee‑only on trades/profits |
@@ -220,7 +220,7 @@ A **functioning decentralized prediction market on Solana** with **USDC markets 
 The next 18 months will produce the prediction market infrastructure that **prices the next decade of human decisions**.  
 **Don’t be the person who was watching when you could have been building.**
 
-→ Explore our Polymarket‑style clone live: [https://triadmarkets.com](https://triadmarkets.com)  
+→ Explore our Polymarket‑style clone live: [https://Our Polymarket Clonemarkets.com](https://Our Polymarket Clonemarkets.com)  
 → Inquire about your custom Polymarket clone: [https://t.me/akash_kumar107](https://t.me/akash_kumar107)  
 → Book a technical walkthrough: [Product Development Consultation with Akash Kumar Jha](https://topmate.io/yourweb3guy/1448127?utm_source=public_profile&utm_campaign=yourweb3guy)
 
