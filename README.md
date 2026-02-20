@@ -220,7 +220,7 @@ A **functioning decentralized prediction market on Solana** with **USDC markets 
 The next 18 months will produce the prediction market infrastructure that **prices the next decade of human decisions**.  
 **Don’t be the person who was watching when you could have been building.**
 
-→ Explore our Polymarket‑style clone live: [https://Our Polymarket Clonemarkets.com](https://Our Polymarket Clonemarkets.com)  
+→ Explore our Polymarket‑style clone live:([polymarket.com clone](https://triadfi.co/)  
 → Inquire about your custom Polymarket clone: [https://t.me/akash_kumar107](https://t.me/akash_kumar107)  
 → Book a technical walkthrough: [Product Development Consultation with Akash Kumar Jha](https://topmate.io/yourweb3guy/1448127?utm_source=public_profile&utm_campaign=yourweb3guy)
 
